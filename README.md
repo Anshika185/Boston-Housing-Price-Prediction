@@ -7,6 +7,9 @@ The dataset for this project originates from the UCI Machine Learning Repository
 For the purposes of this project, the following preprocessing steps have been made to the dataset:
 
 1)16 data points have an 'MEDV' value of 50.0. These data points likely contain missing or censored values and have been removed.
+
 2)1 data point has an 'RM' value of 8.78. This data point can be considered an outlier and has been removed.
+
 3)The features 'RM', 'LSTAT', 'PTRATIO', and 'MEDV' are essential. The remaining non-relevant features have been excluded.
+
 4)The feature 'MEDV' has been multiplicatively scaled to account for 35 years of market inflation
